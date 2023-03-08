@@ -52,11 +52,21 @@
   border: 5px solid #000;
 }
 
-.content__input {
+.content__block {
+  height: 33px;
+  margin: 155px 17px 10px 0;
+}
+
+.content__block_previous-operand  {
   display: flex;
-  border: 0;
+  font-size: 17px;
+  color: #fff;
   background-color: #242530;
-  margin: 244px 17px 0 0;
+}
+
+.content__block_current-operand {
+  color: #fff;
+  font-size: 32px;
 }
 
 .content__buttons {
@@ -97,4 +107,8 @@
   width: 180px;
   margin-right: 10px;
   
+}
+
+.content__button:nth-child(-n+3) {
+  background-color: #B2B2B2;;
 }
